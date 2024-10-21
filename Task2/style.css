@@ -1,0 +1,44 @@
+.parent{
+    background-color:rgb(43, 60, 15);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    border-radius: 10px;
+}
+.start, .center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    gap:40px;
+}
+.child{
+    display: flex;
+    text-transform: capitalize;
+    font-size: larger;
+}
+.img{
+    display: flex;
+    gap: 20px;
+    width: 50px;
+    height: auto;
+}
+.start{
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: larger;
+
+}
+.sign{
+    background-color:lawngreen;
+    color: black;
+    border-radius: 5px;
+    padding: 6px;
+}
+.end{
+    padding-right: 15px;
+    gap:20px;
+}
