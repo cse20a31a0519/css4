@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List</title>
+<style>
+     div{
+        background-color: lightblue;
+     }
+    [data-available="true"]
+    {
+        background-color: green;
+    }
+    [data-available="false"]{
+        background-color: red;
+    }
+    li{
+        /* background-color: lightblue; */
+        list-style-type: numbers;
+        margin: 10px;
+        color:white;
+        padding: 5px;
+
+    }
+    h1{
+        background-color: white;
+    }
+</style>
+</head>
+<body>
+
+  <div>
+    <h1>Product List</h1>
+  <ul>
+    <li data-category="Electronics" data-price="high" data-available="true" style="list-style-type: upper-alpha;">Smartphone</li>
+    <li data-category="Clothing" data-price="low" data-available="true">T-Shirt</li>
+    <li data-category="Appliances" data-price="medium" data-available="false"style="list-style-type: upper-alpha;">Head Phones</li>
+    <li data-category="Appliances" data-price="high" data-available="true">Sofa</li>
+    <li data-category="Appliances" data-price="high" data-available="false">Jacket</li>
+  </ul>
+  </div>
+
+</body>
+</html>
